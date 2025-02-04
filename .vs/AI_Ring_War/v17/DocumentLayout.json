@@ -5,6 +5,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\RankingBoard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|solutionrelative:RankingBoard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\Notice_and_story.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|solutionrelative:Notice_and_story.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\FileException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|solutionrelative:FileException.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|solutionrelative:Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\AIWorld.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D7365A5F-0A56-4C6C-976C-722A0844A7C7}|AI_Ring_War.vcxproj|solutionrelative:AIWorld.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +34,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RankingBoard.h",
+              "DocumentMoniker": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\RankingBoard.h",
+              "RelativeDocumentMoniker": "RankingBoard.h",
+              "ToolTip": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\RankingBoard.h",
+              "RelativeToolTip": "RankingBoard.h",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-04T13:57:57.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileException.h",
+              "DocumentMoniker": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\FileException.h",
+              "RelativeDocumentMoniker": "FileException.h",
+              "ToolTip": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\FileException.h",
+              "RelativeToolTip": "FileException.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-04T14:04:02.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Point.h",
+              "DocumentMoniker": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\Point.h",
+              "RelativeDocumentMoniker": "Point.h",
+              "ToolTip": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\Point.h",
+              "RelativeToolTip": "Point.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-04T13:57:54.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Notice_and_story.h",
+              "DocumentMoniker": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\Notice_and_story.h",
+              "RelativeDocumentMoniker": "Notice_and_story.h",
+              "ToolTip": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\Notice_and_story.h",
+              "RelativeToolTip": "Notice_and_story.h",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-04T13:57:04.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AIWorld.h",
+              "DocumentMoniker": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\AIWorld.h",
+              "RelativeDocumentMoniker": "AIWorld.h",
+              "ToolTip": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\AIWorld.h",
+              "RelativeToolTip": "AIWorld.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-04T13:45:22.507Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +109,7 @@
               "RelativeDocumentMoniker": "Game.cpp",
               "ToolTip": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\Game.cpp",
               "RelativeToolTip": "Game.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxEAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-04T07:51:04.029Z",
               "EditorCaption": ""

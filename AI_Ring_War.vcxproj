@@ -136,6 +136,7 @@
     <ClInclude Include="Canvas.h" />
     <ClInclude Include="FileException.h" />
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Notice_and_story.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="RankingBoard.h" />
