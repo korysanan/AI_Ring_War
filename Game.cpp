@@ -5,6 +5,15 @@
 #include <time.h>
 #include "Notice_and_story.h"
 
+void waitForSpaceKey() {
+    while (true) {
+        char key = _getch();  // 입력 받기 (화면 출력 없음)
+        if (key == ' ') {  // 스페이스 키(ASCII 32)인지 확인
+            break;
+        }
+    }
+}
+
 int getDifficulty() {
 	int difficulty;
 	cout << "========================================\n";
@@ -73,8 +82,8 @@ void startGame(int difficulty, const string& filename) {
     if (player->nItem > 256) {
         cout << "승리하였습니다\n";
         cout << "당신으로 인해 지구는 평화를 찾게 되었습니다.\n";
-        cout << "게임 저장을 위해 아무키나 누르세요...\n";
-        _getche();
+        cout << "게임 저장을 위해 스페이스 키를 누르세요...\n";
+        waitForSpaceKey();  // 스페이스 키 대기
         rank.add(player->nItem, player->nItem / player->total);
         rank.print("[게임 랭킹: 종료]");
         rank.store(filename);
@@ -82,8 +91,8 @@ void startGame(int difficulty, const string& filename) {
     else {
         cout << "패배하였습니다\n";
         cout << "아쉽게도 지구는 AI에게 정복을 당했습니다.\n";
-        cout << "아무키나 눌러서 게임을 종료하십시오..";
-        _getche();
+        cout << "스페이스 키를 눌러서 게임을 종료하십시오...\n";
+        waitForSpaceKey();  // 스페이스 키 대기
     }
 }
 
@@ -99,4 +108,3 @@ int main(void) {
 
     return 0;
 }
-
