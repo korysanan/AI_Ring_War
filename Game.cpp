@@ -7,8 +7,8 @@
 
 void waitForSpaceKey() {
     while (true) {
-        char key = _getch();  // 입력 받기 (화면 출력 없음)
-        if (key == ' ') {  // 스페이스 키(ASCII 32)인지 확인
+        char key = _getch();
+        if (key == ' ') {
             break;
         }
     }
@@ -34,8 +34,8 @@ void handleRankingBoard(RankingBoard& rank, const string& filename) {
     }
     catch (FileException e) {
         char str[80];
-        string passwd, correct = "22";
-        cout << "AI의 풀네임에서 알파벳 갯수는 총 몇개일까?: ";
+        string passwd, correct = "0000";
+        cout << "0을 4개 누르세요";
         for (int i = 0;; i++) {
             str[i] = _getch();
             putchar('*');
@@ -99,12 +99,21 @@ void startGame(int difficulty, const string& filename) {
 int main(void) {
     Rules_Notice();
     displayStory();
-    int i = getDifficulty();
-    string filename = "AIWorld" + to_string(i) + ".rnk";
+    while (true) {
+        int i = getDifficulty();
+        string filename = "AIWorld" + to_string(i) + ".rnk";
 
-    if (i == 1) startGame<AIWorld>(i, filename);
-    else if (i == 2) startGame<AIWorld2>(i, filename);
-    else startGame<AIWorld3>(i, filename);
+        if (i == 1) startGame<AIWorld>(i, filename);
+        else if (i == 2) startGame<AIWorld2>(i, filename);
+        else startGame<AIWorld3>(i, filename);
 
+        cout << "R키를 누르면 다시 시작하고, Q키를 누르면 종료합니다...\n";
+        char key;
+        do {
+            key = _getche();
+            if (key == 'Q' || key == 'q') return 0;
+            system("cls");
+        } while (key != 'R' && key != 'r');
+    }
     return 0;
 }
