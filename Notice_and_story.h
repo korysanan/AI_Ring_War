@@ -13,6 +13,15 @@ void waitForSpace() {
     }
 }
 
+void waitForSpaceKey() {
+    while (true) {
+        char key = _getch();
+        if (key == ' ') {
+            break;
+        }
+    }
+}
+
 void StoryRules() {
     system("cls");
     cout << "========================================\n";

@@ -91,7 +91,7 @@ class AIWorld2 //AIWorld2 클래스 선언   난이도 中용
 		canvas.clear(". ");
 		for (int y = 0; y < yMax; y++)
 			for (int x = 0; x < xMax; x++)
-				if (Map(x, y) > 0) canvas.draw(x, y, "◎ ");
+				if (Map(x, y) > 0) canvas.draw(x, y, "◎");
 		for (int i = 0; i < nMon; i++)
 			pMon[i]->draw(canvas);
 		canvas.print("[ AI World (AI로부터 지구를 지켜라) ]");
