@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "Start_Game.h",
               "ToolTip": "C:\\Users\\ujin0561\\Desktop\\git_clone\\AI_Ring_War\\Start_Game.h",
               "RelativeToolTip": "Start_Game.h",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJoAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-11T02:39:50.188Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "Game.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-05T07:48:11.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-05T07:48:11.599Z"
             },
             {
               "$type": "Document",
@@ -120,8 +119,7 @@
               "RelativeToolTip": "AIWorld.h",
               "ViewState": "AQIAAJAAAAAAAAAAAAAAAKAAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-04T13:45:22.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T13:45:22.507Z"
             },
             {
               "$type": "Document",
@@ -145,8 +143,7 @@
               "RelativeToolTip": "Notice_and_story.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-04T13:57:04.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T13:57:04.955Z"
             },
             {
               "$type": "Document",
@@ -206,8 +203,7 @@
               "RelativeToolTip": "RankingBoard.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-04T13:57:57.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T13:57:57.691Z"
             }
           ]
         }

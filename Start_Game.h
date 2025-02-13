@@ -16,7 +16,7 @@ void Start_Game(int difficulty) {
 				str[i] = _getch();
 				putchar('*');
 				if (str[i] == '\r') {
-					str[i] = '\0';
+					str[i] = '\0'; 
 					passwd = str;
 					cout << "\n";
 					break;
